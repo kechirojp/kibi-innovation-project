@@ -9,6 +9,7 @@ const pages = [
   { slug: 'compute', file: 'docs/kibi-ai.md', title: '吉備中央町のAI基盤', short: '用地・電力・通信を一緒に計画' },
   { slug: 'robots', file: 'docs/physical-ai-and-startups.md', title: 'フィジカルAIと起業', short: '大学の研究を工場の実需へつなぐ' },
   { slug: 'roadmap', file: 'ROADMAP.md', title: '進め方', short: '調査から実証、公開、横展開まで' },
+  { slug: 'workflow', file: 'docs/workflow.md', title: '運用フロー', short: '提案、調査、実証、結果公開の進め方' },
   { slug: 'participate', file: 'CONTRIBUTING.md', title: '参加方法', short: '市民も研究者も自治体も参加できる' },
   { slug: 'privacy', file: 'docs/privacy.md', title: '投稿と個人情報', short: '投稿の保存と公開までの扱い' },
 ];

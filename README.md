@@ -14,6 +14,7 @@
 - [吉備中央町のAI基盤](docs/kibi-ai.md)
 - [フィジカルAIと起業](docs/physical-ai-and-startups.md)
 - [進め方と検証指標](ROADMAP.md)
+- [提案から結果公開までの運用フロー](docs/workflow.md)
 - [公開Projectsボード](https://github.com/users/kechirojp/projects/2/views/1)
 
 ## 参加する
@@ -22,6 +23,7 @@
 - 新しい施策や実証案は「政策・実証の提案」のIssueで、対象者・効果・検証方法を添えてください。
 - 文書やサイトの修正はプルリクエストを送ってください。詳しくは[参加ガイド](CONTRIBUTING.md)へ。
 - GitHubアカウントがない方は、市民向けサイトの投稿フォームから匿名で提案できます。投稿は審査後、個人情報を除いてIssueに整理します。
+- 提案後の調査、実証準備、結果公開の流れは[運用フロー](docs/workflow.md)を参照してください。
 
 ## 原則
 

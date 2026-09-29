@@ -8,8 +8,12 @@ test('repository documents generate citizen pages', async () => {
   const home = await readFile('dist/index.html', 'utf8');
   const life = await readFile('dist/life/index.html', 'utf8');
   const privacy = await readFile('dist/privacy/index.html', 'utf8');
+  const workflow = await readFile('dist/workflow/index.html', 'utf8');
   assert.match(home, /<meta name="viewport"/);
   assert.match(home, /id="proposal-form"/);
   assert.match(life, /実証で確かめること/);
   assert.match(privacy, /90日以内/);
+  assert.match(home, /href="\/workflow\/"/);
+  assert.match(workflow, /提案から結果公開までの運用フロー/);
+  assert.match(workflow, /href="\/participate\/"/);
 });
