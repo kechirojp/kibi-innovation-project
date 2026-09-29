@@ -1,0 +1,34 @@
+name: 政策・実証の提案
+description: 地域の課題や改善案を提案する
+title: "[提案] "
+labels: ["提案"]
+body:
+  - type: markdown
+    attributes:
+      value: "個人情報や第三者を特定できる内容は書かないでください。GitHubを使わない場合は公開サイトの匿名フォームから投稿できます。"
+  - type: dropdown
+    id: area
+    attributes:
+      label: 地域
+      options: ["倉敷市", "吉備中央町", "その他・広域"]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解きたい課題
+      description: 現場で何が起きていますか。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案
+      description: どんな方法を試したいですか。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 根拠・出典・確かめたいこと
+      description: わかっている範囲で記してください。未確認でも提案できます。

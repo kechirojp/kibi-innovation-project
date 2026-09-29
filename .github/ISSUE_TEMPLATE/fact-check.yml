@@ -1,0 +1,21 @@
+name: 事実確認・出典の追加
+description: 文書中の事実や出典を確認する
+title: "[事実確認] "
+labels: ["事実確認"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 対象のページ・記述
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: 確認した内容
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 出典URL
